@@ -15,10 +15,12 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
+    <script src="https://unpkg.com/canvaskit-wasm@0.33.0/bin/canvaskit.js"></script>
+    <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.33.0/bin/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
 
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="A new Flutter project.">
+    <meta name="description" content="Hamari Silai is an NGO that empowers rural women in India. We help these women lead better lives by giving them education and skills through tailoring ('silai') to avail them with a multitude of oppurtinites.">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +31,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <title>hamari_silai_website</title>
+    <title>Hamari Silai</title>
     <link rel="manifest" href="manifest.json">
 </head>
 
@@ -38,7 +40,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
     <script>
-        var serviceWorkerVersion = '724979515';
+        var serviceWorkerVersion = '3898240865';
         var scriptLoaded = false;
 
         function loadMainDartJs() {
